@@ -1,7 +1,9 @@
+using it.core.Interfaces;
+
 namespace it.core
 {
-    public class ADtoFor<T>
+    public interface IAmADtoFor<T> where T : It<T>, IAmAnEntity, new()
     {
-        // map to|from viewModels or data models (or export models/contracts)
+        // common methods? 
     }
 }
